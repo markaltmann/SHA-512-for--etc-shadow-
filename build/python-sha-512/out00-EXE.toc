@@ -1,0 +1,9 @@
+('C:\\cygwin\\home\\ALTMAMA\\pyinstaller-develop\\python-sha-512\\dist\\python-sha-512.exe',
+ True,
+ False,
+ None,
+ None,
+ [],
+ None,
+ False,
+ 1423649072L)
