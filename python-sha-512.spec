@@ -3,7 +3,7 @@
 block_cipher = None
 
 
-a = Analysis(['C:\\OneDrive\\moovel\\python-sha-512.py'],
+a = Analysis(['C:\\GitHub\\SHA-512-for--etc-shadow-\\python-sha-512.py'],
              pathex=['C:\\cygwin\\home\\ALTMAMA\\pyinstaller-develop\\python-sha-512'],
              hiddenimports=[],
              hookspath=None,

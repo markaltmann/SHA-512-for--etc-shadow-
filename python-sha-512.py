@@ -1,12 +1,11 @@
 from passlib.hash import sha512_crypt
-import random
-import string
+import getpass
 hash = sha512_crypt.encrypt(
-    raw_input('clear-text password: '), 
+    getpass.getpass('Password:'), 
     salt_size=8,
     rounds=5000,
     implicit_rounds=True,
 )
 print hash + '\n'
-print 'verification\n'
-print sha512_crypt.verify(raw_input('clear-text password: '), hash)
+print 'Verification:'
+print sha512_crypt.verify(getpass.getpass('Retype password: '), hash)

@@ -565,37 +565,9 @@ posix: None -> None
   DEL posix
 posix: None -> None
   DEL posix
-__main__: <PyScript '__main__' C:\cygwin\home\ALTMAMA\pyinstaller-develop\PyInstaller\loader\pyi_os_path.py imports=[('sys', 0, 0, -1), ('posix.environ', 0, 1, -1), ('nt.listdir', 0, 1, -1), ('nt.environ', 0, 1, -1), ('posix', 0, 1, -1), ('posix.listdir', 0, 1, -1), ('nt', 0, 1, -1)] binaries=[] datas=[]> -> <PyScript '__main__' C:\OneDrive\moovel\python-sha-512.py imports=[('random', 0, 0, -1), ('passlib.hash.sha512_crypt', 0, 0, -1), ('string', 0, 0, -1), ('passlib.hash', 0, 0, -1)] binaries=[] datas=[]>
+__main__: <PyScript '__main__' C:\cygwin\home\ALTMAMA\pyinstaller-develop\PyInstaller\loader\pyi_os_path.py imports=[('sys', 0, 0, -1), ('posix.environ', 0, 1, -1), ('nt.listdir', 0, 1, -1), ('nt.environ', 0, 1, -1), ('posix', 0, 1, -1), ('posix.listdir', 0, 1, -1), ('nt', 0, 1, -1)] binaries=[] datas=[]> -> <PyScript '__main__' C:\GitHub\SHA-512-for--etc-shadow-\python-sha-512.py imports=[('passlib.hash.sha512_crypt', 0, 0, -1), ('getpass', 0, 0, -1), ('passlib.hash', 0, 0, -1)] binaries=[] datas=[]>
 passlib: None -> <PkgInZipModule 'passlib' build\bdist.win32\egg\passlib\__init__.pyc imports=[] binaries=[] datas=[]>
 passlib.hash: None -> <PyInZipModule 'passlib.hash' build\bdist.win32\egg\passlib\hash.pyc imports=[('passlib.registry', 0, 0, -1), ('passlib.registry._proxy', 0, 0, -1), ('sys', 0, 0, -1)] binaries=[] datas=[]>
-posix: None -> None
-  DEL posix
-posix: None -> None
-  DEL posix
-posix: None -> None
-  DEL posix
-_emx_link: None -> None
-  DEL _emx_link
-_emx_link: None -> None
-  DEL _emx_link
-fcntl: None -> None
-  DEL fcntl
-readline: None -> None
-  DEL readline
-pwd: None -> None
-  DEL pwd
-org: None -> None
-  DEL org
-org: None -> None
-  DEL org
-readline: None -> None
-  DEL readline
-fcntl: None -> None
-  DEL fcntl
-org: None -> None
-  DEL org
-org: None -> None
-  DEL org
 passlib.passlib: None -> None
 passlib.registry: None -> <PyInZipModule 'passlib.registry' build\bdist.win32\egg\passlib\registry.pyc imports=[('passlib.utils.is_crypt_handler', 0, 0, -1), ('re', 0, 0, -1), ('passlib.utils.Undef', 0, 0, -1), ('passlib.utils', 0, 0, -1), ('warnings', 0, 0, -1), ('logging', 0, 0, -1), ('inspect', 0, 0, -1), ('warnings.warn', 0, 0, -1)] binaries=[] datas=[]>
 passlib.sys: None -> None
@@ -624,3 +596,39 @@ passlib.utils.time: None -> None
 passlib.utils.random: None -> None
 crypt: None -> None
   DEL crypt
+posix: None -> None
+  DEL posix
+posix: None -> None
+  DEL posix
+posix: None -> None
+  DEL posix
+_emx_link: None -> None
+  DEL _emx_link
+_emx_link: None -> None
+  DEL _emx_link
+fcntl: None -> None
+  DEL fcntl
+readline: None -> None
+  DEL readline
+pwd: None -> None
+  DEL pwd
+org: None -> None
+  DEL org
+org: None -> None
+  DEL org
+readline: None -> None
+  DEL readline
+fcntl: None -> None
+  DEL fcntl
+org: None -> None
+  DEL org
+org: None -> None
+  DEL org
+EasyDialogs: None -> None
+  DEL EasyDialogs
+EasyDialogs: None -> None
+  DEL EasyDialogs
+pwd: None -> None
+  DEL pwd
+termios: None -> None
+  DEL termios
