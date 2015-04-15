@@ -2,4 +2,5 @@
 Python Script to generate a proper SHA-512 entry for /etc/shadow/
 
 Leverages the excellent passlib for password generation: https://pythonhosted.org/passlib/
+
 And the getpass library for secure password entry: https://docs.python.org/2/library/getpass.html
